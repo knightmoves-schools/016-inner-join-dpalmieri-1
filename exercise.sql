@@ -1,1 +1,3 @@
 -- Add your SQL here
+SELECT NAME, EMAIL, ADDRESS FROM Employee AS EMP
+INNER JOIN Contact_Info AS CI ON EMP.ID = CI.ID;
